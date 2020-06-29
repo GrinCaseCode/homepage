@@ -183,5 +183,8 @@
 .total-descr {
 	padding-top: 20px;
 }
+.checkbox-calculator span::before {
+	top: -4px;
+}
 }
 
