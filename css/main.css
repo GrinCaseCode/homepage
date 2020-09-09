@@ -5832,6 +5832,10 @@ border: 1px solid rgba(204, 204, 204, 0.74);
 .row_radio > div {
   margin-top: 0;
 }
+.item-total span {
+  margin-top: 0;
+  line-height: 30px;
+}
 /*video landing*/
 .item-need__icon {
   width: 88px;
