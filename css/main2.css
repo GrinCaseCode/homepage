@@ -1,0 +1,642 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-size: 16px;
+	font-family: 'Helvetica Neue Cyr';
+	overflow-x: hidden;
+	margin: 0;
+}
+button {
+	cursor: pointer;
+}
+h1,h2,h3,h4,h5,h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+.wrapper {
+	overflow: hidden;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+* {
+	outline: none !important;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+ul li {
+	list-style-type: none;
+	outline: none;
+}
+img {
+	outline: none;
+	display: block;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+
+.section-advantages {
+	padding-top: 40px;
+	padding-bottom: 70px;
+	background-image: url(../img/bg_advantages.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.wrapper-advantages {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.item-advantage {
+	padding: 20px 20px;
+	padding-top: 95px;
+	width: 265px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000926;
+	max-width: 100%;
+	margin: 0 15px;
+	margin-top: 30px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px #47474754;
+	background-image: url(../img/ic_shield.svg);
+	background-repeat: no-repeat;
+	background-position: center 30px;
+	-webkit-background-size: 28px 33px;
+	background-size: 28px 33px;
+}
+.column-advantages:first-child .item-advantage,
+.column-advantages:last-child .item-advantage {
+	min-height: 310px;
+}
+
+.title-section {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+.title-section strong {
+	font-weight: 700;
+}
+.row_complex > div {
+	margin-bottom: 25px;
+}
+.item-complex {
+	width: 360px;
+	max-width: 100%;
+	margin: 0 auto;
+	min-height: 100%;
+	padding: 0px 35px;
+	padding-bottom: 30px;
+	background-color: #f8f8f8;
+	border-radius: 8px;
+	position: relative;
+}
+.item-complex__icon {
+	height: 100px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.item-complex__icon img {
+	max-width: 52px;
+	height: auto;
+	display: block;
+}
+.item-complex__name {
+	font-size: 24px;
+	font-weight: 500;
+	padding-bottom: 23px;
+	color: #000926;
+}
+.item-complex p {
+	font-size: 14px;
+	color: #000926;
+	margin-bottom: 15px;
+}
+.section-complex {
+	padding-top: 40px;
+}
+.section-complex .title-section {
+	max-width: 800px;
+}
+.item-complex__arrow {
+	font-size: 30px;
+	top: 35px;
+	right: 22px;
+	position: absolute;
+	color: #8a0303;
+	display: inline-block;
+}
+
+
+.section-firealarm {
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+.block-firealarm {
+	padding: 50px 0;
+	padding-left: 205px;
+	padding-right: 345px;
+	margin-top: 40px;
+	background-color: #8a0303;
+	color: #fff;
+	position: relative;
+}
+.doc__firealarm {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 25px 30px;
+	max-width: 205px;
+}
+.doc__firealarm img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.image__firealarm {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+}
+.image__firealarm img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.title-block {
+	font-size: 24px;
+	color: #8a0303;
+	font-weight: 500;
+}
+.descr-title-block {
+	font-size: 18px;
+	font-weight: 500;
+}
+.section-firealarm .descr-title-block {
+	max-width: 705px;
+}
+.block-firealarm strong {
+	font-weight: 700;
+}
+.block-firealarm p {
+	line-height: 25px;
+}
+
+.section-include {
+	padding-top: 45px;
+	padding-bottom: 65px;
+	background-color: #f8f8f8;
+}
+.section-include .title-section {
+	max-width: 670px;
+}
+.list-numbers li {
+	font-size: 24px;
+	margin-bottom: 18px;
+	color: #000;
+	list-style: none;
+}
+.list-numbers li strong {
+	font-weight: 700;
+	color: #8a0303;
+}
+.image-include img {
+	max-width: 100%;
+	height: auto;
+}
+.image-include {
+	margin-top: -90px;
+	position: relative;
+}
+.number-include {
+	width: 66px;
+	height: 66px;
+	font-size: 30px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #8a0303;
+	border: 3px #fff solid;
+	border-radius: 50%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+.number-include_1 {
+	top: 0;
+	left: 0;
+}
+.image-result-include img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.list-main li {
+	font-size: 24px;
+	margin-bottom: 18px;
+	padding-left: 38px;
+	color: #000;
+	list-style: none;
+	position: relative;
+}
+.list-main li::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 23px;
+	height: 22px;
+	top: 0;
+	left: 0;
+	background-image: url(../img/ic_li.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: 23px 22px;
+	background-size: 23px 22px;
+}
+.section-include__title {
+	padding: 30px 0;
+	font-size: 30px;
+	font-weight: 500;
+}
+.row_result-include {
+	margin-top: 30px;
+}
+
+.section-impact {
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.item-impact__name {
+	font-size: 24px;
+	padding-bottom: 18px;
+	font-weight: 500;
+}
+.item-impact p {
+	font-size: 14px;
+	line-height: 20px;
+}
+.item-impact {
+	padding: 35px;
+	min-height: 100%;
+	background-color: #f8f8f8;
+	color: #000;
+	border-radius: 8px;
+}
+.item-impact_price {
+	background-color: #8a0303;
+	color: #fff;
+}
+.row_impact > div {
+	margin-bottom: 25px;
+}
+.item-impact__price {
+	font-size: 24px;
+	line-height: 33px;
+}
+.item-impact__price strong {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+/*calculator*/
+.descr-title {
+	font-size: 20px;
+}
+.title-section span {
+	color: #8a0303;
+}
+.section-calculator .title-section {
+	font-weight: 500;
+}
+.section-calculator  {
+	padding-top: 25px;
+	padding-bottom: 60px;
+	background-color: #f8f8f8;
+}
+.title-calculator {
+	font-size: 24px;
+	color: #000926;
+	font-weight: 500;
+}
+.title-calculator span {
+	font-family: sans-serif;
+}
+.line-calculator {
+	padding-top: 35px;
+	padding-bottom: 30px;
+	border-bottom: 1px #ccc solid;
+}
+.section-calculator input[type="text"] {
+	height: 45px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #fff;
+	font-family: 'Helvetica Neue Cyr';
+	font-size: 14px;
+	width: 100%;
+	border: none;
+}
+.line-calculator_area input {
+	display: inline-block;
+	max-width: 170px;
+	margin-left: 43px;
+}
+.line-calculator_area .title-calculator {
+	display: inline-block;
+	vertical-align: middle;
+}
+.radio-calculator {
+	min-height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.radio-calculator label {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.radio-calculator__content {
+	padding: 40px 33px;
+	background-color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	display: block;
+	color: #000926;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.radio-calculator__name {
+	font-size: 20px;
+	margin-bottom: 22px;
+	font-weight: 500;
+	position: relative;
+	display: block;
+}
+.radio-calculator__name::before {
+	font-size: 18px;
+	margin-right: 20px;
+	color: #999;
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	content: "\f192";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.checkbox-calculator label input,
+.radio-calculator label input {
+	position: absolute;
+	z-index: -1;
+	width: 1px !important;
+	height: 1px !important;
+	opacity: 0;
+	margin: 10px 0 0 20px;
+}
+.radio-calculator__text {
+	font-size: 14px;
+}
+.radio-calculator label input:checked + .radio-calculator__content .radio-calculator__name::before {
+	color: #8a0303;
+}
+.row_radio > div {
+	margin-top: 30px;
+}
+.checkbox-calculator {
+	margin-top: 35px;
+}
+.checkbox-calculator span {
+	font-size: 20px;
+	color: #000926;
+	font-weight: 500;
+	padding-left: 35px;
+	position: relative;
+	display: block;
+}
+.checkbox-calculator span::before {
+	content: "\f00c";
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 22px;
+	height: 22px;
+	border: 2px #999 solid;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 14px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	color: transparent;
+}
+.checkbox-calculator label input:checked + span::before {
+	color: #8a0303;
+	border-color: #8a0303;
+}
+.item-total {
+	margin-top: 30px;
+	font-size: 20px;
+	color: #000926;
+}
+.item-total span {
+	font-size: 24px;
+	margin-top: 5px;
+	font-weight: 500;
+	display: block;
+}
+.total-descr {
+	font-size: 14px;
+	padding-top: 40px;
+	line-height: 22px;
+	max-width: 1040px;
+	color: #000926;
+}
+.line-calculator_total {
+	border: none;
+}
+.align_center {
+	text-align: center;
+}
+.btn-main {
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flex;
+    display: -o-inline-flex;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 59px;
+    padding: 0 50px;
+    border: none;
+    -webkit-box-shadow: 7px 13px 20px 0px rgba(137, 3, 3, 0.4);
+    box-shadow: 7px 13px 20px 0px rgba(137, 3, 3, 0.4);
+    background-color: #8a0303;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f10001), to(#8a0303));
+    background-image: -o-linear-gradient(top, #f10001 0%, #8a0303 100%);
+    background-image: linear-gradient(180deg, #f10001 0%, #8a0303 100%);
+    border-radius: 6.0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.btn-main:hover {
+    background: #f10001;
+}
+
+/*new styles*/
+.title-calculator {
+	font-size: 18px;
+	font-weight: 700;
+}
+.block-calculator {
+	padding: 22px;
+	padding-top: 25px;
+	margin-top: 22px;
+	border-radius: 6px;
+background-color: #ffffff;
+}
+.radio-calculator label input:checked + .radio-calculator__name::before {
+	color: #8a0303;
+}
+.block-calculator__descr {
+	padding: 29px 11px;
+	padding-bottom: 10px;
+	padding-right: 50px;
+	border-top: 1px #999 solid;
+	font-size: 14px;
+line-height: 21px;
+}
+.checkbox-calculator:first-child {
+	margin-top: 0;
+}
+.checkbox-calculator {
+    margin-top: 19px;
+}
+.calculator-size {
+	margin: 25px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.calculator-size input[type='text'] {
+	border-radius: 3px;
+border: 1px solid rgba(204, 204, 204, 0.74);
+	max-width: 110px;
+}
+.total-calculator {
+	margin-top: 35px;
+	padding-bottom: 22px;
+	border-bottom: 1px #ccc solid;
+		display: flex;
+	justify-content: space-between;
+}
+.item-total {
+	margin-top: 0;
+}
+.total-calculator .title-calculator {
+	font-size: 24px;
+}
+.total-descr {
+	padding-top: 16px;
+	padding-bottom: 20px;
+}
+.section-calculator .title-section {
+	margin-bottom: 0;
+}
+.row_radio > div {
+	margin-top: 0;
+}
+/*video landing*/
+.item-need__icon {
+	width: 88px;
+height: 88px;
+padding: 22px;
+margin-bottom: 29px;
+background-color: #8a0303;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.item-need__icon img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.item-need {
+color: #000000;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+}
+.section-need {
+	padding-top: 20px;
+}
