@@ -6142,6 +6142,7 @@ line-height: 26px;
 }
 .item-total {
     font-size: 14px;
+    padding-right: 15px;
     max-width: 33%;
 }
 .item-total span {
