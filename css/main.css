@@ -5836,6 +5836,9 @@ border: 1px solid rgba(204, 204, 204, 0.74);
   margin-top: 0;
   line-height: 30px;
 }
+.btn-main {
+  cursor: pointer;
+}
 /*video landing*/
 .item-need__icon {
   width: 88px;
